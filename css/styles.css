@@ -1,0 +1,44 @@
+html,body {
+margin:0px;
+height:100%;
+}
+div {
+    display:inline-block;
+}
+.background {
+    background: black;
+    width: 100%;
+    padding: 60px 0 0;
+}
+.navbar {
+    position: fixed;
+    padding: 0;
+    height: 60px;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 0 5px #888;
+}
+#homepage {
+    padding: 0;
+    margin: 5px;
+    /*float: left;*/
+}
+.navbar_text {
+    position: relative;
+    top: -11%;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    color: #323030;
+}
+.navbar_trans {
+    float: right;
+    margin: 5px;
+    position: relative;
+    top: 42%;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    color: #323030;
+}
+#textlogo {
+    font-size: 2%;
+}
