@@ -4,6 +4,7 @@ body {
     font-family: 'roboto', sans-serif;
     /*background: black;
     color: white;*/
+    text-align: center;
 }
 #bg {
     display:block;
@@ -14,7 +15,6 @@ body {
 }
 
 #u3002 {
-    text-align: center;
 }
 #greeting {
     font-family: Arial, sans-serif;
@@ -39,7 +39,6 @@ a:active {
     color: #007acc;
 }
 #language {
-    text-align: center;
 }
 /*.aqi {
     z-index: 10;
