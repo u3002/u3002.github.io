@@ -1,4 +1,4 @@
 # u3002.github.io
 \u3002's personal homepage
 
-www.u3002.net
+www.u3002.com
