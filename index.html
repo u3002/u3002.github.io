@@ -15,10 +15,10 @@
     <meta http-equiv="pragma" content="no-cache" />
 </head>
 <body>
-    <div id="u3002" style="height:50%">
-        <br />
+    <div id="u3002">
+        <div id="top"></div>
         <!--<img id="logo" src="images/Tlogo.svg" alt="\u3002" title="Homepage" height="450" />-->
-        <svg id="svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304.82 356.75" height="100%">
+        <svg id="svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304.82 356.75">
             <defs>
                 <style type="text/css">
                     .cls-1 {
@@ -106,11 +106,10 @@
             }
         </script>
     </div>
-    <div style="height:40%">
-        <br />
-        <div style="font-size:2.5vh">
-            <b>
-                <script type="text/javascript" id="greeting">
+    <div id="main">
+        <div id="greeting">
+        <b>
+            <script type="text/javascript">
                     var today = new Date();
                     var hourNow = today.getHours();
                     var greeting;
@@ -131,23 +130,23 @@
                     }
                     document.write(greeting);
                 </script>
-            </b>
-            <div id="list">
-                <ul>
-                    <li><a href="hj.htm">Funny</a></li>
-                    <li><a href="http://aqualand.u3002.com">Minecraft Server</a></li>
-                    <li><a href="https://www.tan8.com/user-publish-0-2903814-1-0.html" target="_blank">Sheet Music</a></li>
-                    <li><a href="https://kg.qq.com/node/personal?uid=639c9b852d25338d32" target="_blank">Music Works</a></li>
-                    <li><a href="kmsserver.html">KMS Server</a></li>
-                    <li><a href="vpnserver.html">VPN Server</a></li>
-                    <li><a href="http://blog.u3002.com">\u3002's blog</a></li>
-                </ul>
-            </div>
+        </b>  
         </div>
-        <hr />
-        <div id="language">
-            <audio src="audio/ユウノウミ - 博丽霊梦は友に别れを告げる (off vocal version).mp3" controls autoplay loop style="height:12%"></audio>
-            <div id="google_translate_element"></div>
+        <div id="list">
+            <ul>
+                <li><a href="hj.htm"><img src="images/haha.png" /><span>Funny</span></a></li>
+                <li><a href="http://aqualand.u3002.com"><img src="images/iconx180.png" />Minecraft Server</a></li>
+                <li><a href="https://www.tan8.com/user-publish-0-2903814-1-0.html" target="_blank"><img src="images/sheetmusic.svg" />Sheet Music</a></li>
+                <li><a href="https://kg.qq.com/node/personal?uid=639c9b852d25338d32" target="_blank"><img src="images/musicworks.svg" />Music Works</a></li>
+                <li><a href="kmsserver.html"><img src="images/kmsserver.svg" />KMS Server</a></li>
+                <li><a href="vpnserver.html"><img src="images/vpnserver.svg" />VPN Server</a></li>
+                <li><a href="http://blog.u3002.com"><img src="images/blogger.png" />\u3002's blog</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="container">
+            <audio src="audio/ユウノウミ - 博丽霊梦は友に别れを告げる (off vocal version).mp3" controls autoplay loop id="audio"></audio>
             <div id="Contact">
                 <a href="mailto:u3002@outlook.com" alt="Outlook" title="Outlook"><img border="0" src="images/Outlook.svg" /></a>
                 <a href="https://twitter.com/_u3002" alt="Twitter" title="Twitter" target="_blank"><img border="0" src="images/Twitter.svg" /></a>
@@ -157,9 +156,11 @@
                 <a href="https://www.youtube.com/channel/UCSZlEZjK-xSS6PpTgbdoBEQ" alt="Youtube Channel" title="Youtube Channel" target="_blank"><img border="0" src="images/Youtube.svg" /></a>
                 <a href="https://www.pixiv.net/member.php?id=22666678" alt="Pixiv" title="Pixiv"><img border="0" src="images/Pixiv.svg" /></a>
                 <a href="https://github.com/u3002" alt="GitHub" title="GitHub" target="_blank"><img border="0" src="images/GitHub.svg" /></a>
+                <div id="google_translate_element"></div>
             </div>
         </div>
     </div>
+
     <script type="text/javascript" src="js/bg2.js"></script>
     <script type="text/javascript">function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, 'google_translate_element'); }</script>
     <script type="text/javascript" src="//translate.google.cn/translate_a/element.js?cb=googleTranslateElementInit"></script>
