@@ -108,6 +108,6 @@ a:active {
     color: #007acc;
 }
 #list > ul > li > a:hover img {
-    background-color: #C0C0C0;
+    background-color: #DCDCDC;
     border-radius: 50%;
 }
