@@ -1,4 +1,4 @@
-body {
+﻿body {
     padding: 0;
     margin: 0;
     font-family: 'roboto', sans-serif;
@@ -18,7 +18,8 @@ body>div{
 
 
 #u3002 {
-    height:50%;
+    height: 50%;
+    overflow: hidden;
 }
 #top{
     height:2%;
@@ -49,20 +50,20 @@ body>div{
     padding:0;
 }
 #list > ul > li > a > img {
-    text-align: left;
     height: 80%;
     vertical-align: middle;
     padding:0.1em;
 }
 #list > ul > li > a {
-    vertical-align: middle;
-    width:inherit;
-    
+    display: block;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    padding-right:0.1em;
 }
 #list > ul > li {
     list-style-type: none;
     height:12%;
-    white-space: nowrap;
 }
 #list > ul {
     padding: 0;
@@ -77,10 +78,13 @@ body>div{
     background: #f1f2f3;
 }
 #audio{
-    height:32%;
+    height:26%;
+}
+#Contact {
+    height: 26%;
 }
 #Contact > a > img {
-    height: 32%;
+    height: 100%;
     opacity: 1;
     padding: 0;
     margin: 0;
@@ -91,7 +95,12 @@ body>div{
     opacity: 0.9;
     transform: scale(1.25);
 }
-    
+#google_translate_element{
+    padding:0;
+    height:48%;
+    overflow:hidden;
+}
+
 
 a:link {
     color: #1e1e1e;
@@ -107,7 +116,11 @@ a:hover {
 a:active {
     color: #007acc;
 }
-#list > ul > li > a:hover img {
+#list > ul > li> a:hover {
+    background-color: #ECECEC;
+    border-radius: 1em;
+}
+#list > ul > li > a:active {
     background-color: #DCDCDC;
-    border-radius: 50%;
+    border-radius: 1em;
 }
