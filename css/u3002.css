@@ -74,8 +74,10 @@ body>div{
     height: 18%;
     background: rgba(227,231,233,.5);
 }
-#audio{
-    height:26%;
+#audio {
+    display:inline-block;
+    height: 26%;
+    max-width:100%;
 }
 #Contact {
     height: 26%;
