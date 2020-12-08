@@ -15,3 +15,18 @@ pre {
     color: #4d4d4c;
     overflow: auto;
 }
+.vpntype {
+    height: 36px;
+    margin: 2px;
+}
+.addfeatures {
+    height: 24px;
+    margin: 2px;
+}
+sup{
+    color: green;
+}
+sub{
+    color: red;
+}
+
