@@ -72,10 +72,7 @@ body>div{
 
 #footer {
     height: 18%;
-    background: #f1f2f3;
-}
-#container {
-    background: #f1f2f3;
+    background: rgba(227,231,233,.5);
 }
 #audio{
     height:26%;
