@@ -15,7 +15,15 @@ pre {
     color: #4d4d4c;
     overflow: auto;
 }
-.vpntype {
+.h1img {
+    height: 54px;
+    margin: 3px;
+}
+.h2img {
+    height:42px;
+    margin: 2px;
+}
+.h3img {
     height: 36px;
     margin: 2px;
 }
