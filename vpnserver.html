@@ -81,36 +81,86 @@
 
                 <!-- Post Content -->
                 <h2>VPN Server List</h2>
-                <h3><img src="images/vpnserver.svg" class="h3img" />PPTP<sup>●Online</sup></h3>
-                <b>Server address:<pre>vpn.u3002.net</pre></b>
-                <p><a href="#email">Username & Password</a></p>
-                <h3><img src="images/openvpn.svg" class="h3img" />OpenVPN<sup>●Online</sup></h3>
-                <b>Server address:<pre>vpn.u3002.net</pre></b>
-                <b>Profile:<pre><a href="client1.txt" download="client1_vpn.u3002.net.ovpn">client1_vpn.u3002.net.ovpn</a></pre></b>
-                <p><a href="#email">Username & Password</a></p>
-                <h3><img src="images/vpnserver.svg" class="h3img" />IPSec VPN(Xauth)<sub>●Offline</sub></h3>
-                <b>Server address:<pre>vpn.u3002.net</pre></b>
-                <b>Pre-shared key:<pre>00000000</pre></b>
-                <p><a href="#email">Username & Password</a></p>
-                <h3><img src="images/vpnserver.svg" class="h3img" />L2TP<sup>●Online</sup></h3>
-                <b>Server address:<pre>vpn.u3002.net</pre></b>
-                <b>Pre-shared key:<pre>00000000</pre></b>
-                <p><a href="#email">Username & Password</a></p>
-                <h3><img src="images/vpnserver.svg" class="h3img" />SSTP<sup>●Online</sup></h3>
-                <b>Server address:<pre>au3002.vpnazure.net</pre></b>
-                <p><a href="#email">Username & Password</a></p>
-                <h3><img src="images/Shadowsocks.svg" class="h3img" />Shadowsocks<sub>●Offline</sub></h3>
-                <b>Server address:<pre>vpn.u3002.net</pre></b>
-                <b>Encrypt Method:<pre>aes-256-ctr</pre></b>
-                <b>Port:<pre>443</pre></b>
-                <p><a href="#email">Password</a></p>
-                <h2>Additional Features</h2>
-                <p><b><img src="images/UnblockNeteaseMusic.png" class="addfeatures" />UnblockNeteaseMusic<sup>●Running</sup>&nbsp;->&nbsp;<a href="https://github.com/nondanee/UnblockNeteaseMusic">GitHub Repository</a></b></p>
-                <p><b><img src="images/office.svg" class="addfeatures" />KMS Server(LAN)<sup>●Running</sup>&nbsp;->&nbsp;<a href="kmsserver.html">Recommended Setup</a></b></p>
-                <p><b><img src="images/minecraft.png" class="addfeatures" />Minecraft Beta Server<sub>●Stopped</sub></b></p>
-                <h3><b>Contact us to get your Username & Password<br /><a href="mailto:admin@u3002.com" id="email" alt="Outlook" title="Outlook"><img border="0" src="images/Outlook.svg" height="50" />&nbsp;admin@u3002.com</a></b></h3>
+                <div id="accordion">
+                    <div class="card">
+                        <button class="btn btn-link card-header" data-toggle="collapse" data-target="#collapse1">
+                            <h3><img src="images/vpnserver.svg" class="h3img" />PPTP<sup>●Online</sup></h3>
+                        </button>
+                        <div id="collapse1" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <b>Server address:<pre>vpn.u3002.net</pre></b>
+                                <p><a href="#email">Username & Password</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <button class="btn btn-link card-header" data-toggle="collapse" data-target="#collapse2">
+                            <h3><img src="images/openvpn.svg" class="h3img" />OpenVPN<sup>●Online</sup></h3>
+                        </button>
+                        <div id="collapse2" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <b>Server address:<pre>vpn.u3002.net</pre></b>
+                                <b>Profile:<pre><a href="client1.txt" download="client1_vpn.u3002.net.ovpn">client1_vpn.u3002.net.ovpn</a></pre></b>
+                                <p><a href="#email">Username & Password</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <button class="btn btn-link card-header" data-toggle="collapse" data-target="#collapse3">
+                            <h3><img src="images/vpnserver.svg" class="h3img" />IPSec VPN(Xauth)<sub>●Offline</sub></h3>
+                        </button>
+                        <div id="collapse3" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <b>Server address:<pre>vpn.u3002.net</pre></b>
+                                <b>Pre-shared key:<pre>00000000</pre></b>
+                                <p><a href="#email">Username & Password</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <button class="btn btn-link card-header" data-toggle="collapse" data-target="#collapse4">
+                            <h3><img src="images/vpnserver.svg" class="h3img" />L2TP<sup>●Online</sup></h3>
+                        </button>
+                        <div id="collapse4" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <b>Server address:<pre>vpn.u3002.net</pre></b>
+                                <b>Pre-shared key:<pre>00000000</pre></b>
+                                <p><a href="#email">Username & Password</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <button class="btn btn-link card-header" data-toggle="collapse" data-target="#collapse5">
+                            <h3><img src="images/vpnserver.svg" class="h3img" />SSTP<sup>●Online</sup></h3>
+                        </button>
+                        <div id="collapse5" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <b>Server address:<pre>au3002.vpnazure.net</pre></b>
+                                <p><a href="#email">Username & Password</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <button class="btn btn-link card-header" data-toggle="collapse" data-target="#collapse6">
+                            <h3><img src="images/Shadowsocks.svg" class="h3img" />Shadowsocks<sub>●Offline</sub></h3>
+                        </button>
+                        <div id="collapse6" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <b>Server address:<pre>vpn.u3002.net</pre></b>
+                                <b>Encrypt Method:<pre>aes-256-ctr</pre></b>
+                                <b>Port:<pre>443</pre></b>
+                                <p><a href="#email">Password</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <h2>Additional Features</h2>
+                    <p><b><img src="images/UnblockNeteaseMusic.png" class="addfeatures" />UnblockNeteaseMusic<sup>●Running</sup>&nbsp;->&nbsp;<a href="https://github.com/nondanee/UnblockNeteaseMusic">GitHub Repository</a></b></p>
+                    <p><b><img src="images/office.svg" class="addfeatures" />KMS Server(LAN)<sup>●Running</sup>&nbsp;->&nbsp;<a href="kmsserver.html">Recommended Setup</a></b></p>
+                    <p><b><img src="images/minecraft.png" class="addfeatures" />Minecraft Beta Server<sub>●Stopped</sub></b></p>
+                    <h3><b>Contact us to get your Username & Password<br /><a href="mailto:admin@u3002.com" id="email" alt="Outlook" title="Outlook"><img border="0" src="images/Outlook.svg" height="50" />&nbsp;admin@u3002.com</a></b></h3>
+                </div>
             </div>
-        </div>
         <!-- /.row -->
 
     </div>

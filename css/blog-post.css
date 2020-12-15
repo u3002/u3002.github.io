@@ -9,6 +9,13 @@ body {
 .navbar_trans {
     transform: translateY(30%);
 }
+h3 {
+    text-align: left;
+    margin: 0;
+}
+.btn:not(:disabled):not(.disabled) {
+    text-decoration: none;
+}
 pre {
     background: #eee;
     padding: 10px 15px;
