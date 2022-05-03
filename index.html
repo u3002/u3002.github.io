@@ -17,11 +17,15 @@
             padding: 0;
             margin: 0;
             font-family: 'roboto', sans-serif;
+            background-image: linear-gradient(to top, rgba(0,0,0,0)20%, rgba(255,248.5,242.5,.5) 20%, rgba(240.5,238.5,255,.5) 41%, rgba(148.5,174.5,255,.5) 59%, rgb(84.5,126.5,255,.5) 75%, rgba(55,96.5,255,.5) 100%);
         }
-
             body > div {
                 text-align: center;
             }
+
+        #warp {
+            background-image: linear-gradient(to top, #333f7b 0%, #5a4a81 2%, #e1919c 4%, rgba(255,164,0,.56) 6%, rgba(250,186,112,.5) 8%, rgba(255,232.5,212.5,.5) 12%, rgba(255,248.5,242.5,.5) 20%, rgba(0,0,0,0) 20%);
+        }
 
         #bg {
             display: block;
@@ -30,7 +34,6 @@
             top: 0;
             left: 0;
         }
-
 
         #u3002 {
             height: 50%;
@@ -68,13 +71,11 @@
             margin: 0;
             padding: 0;
         }
-
             #list > ul > li > a > img {
                 height: 80%;
                 vertical-align: middle;
                 padding: 0.1em;
             }
-
             #list > ul > li > a {
                 display: block;
                 overflow: hidden;
@@ -84,20 +85,17 @@
                 color: #303030;
                 font-weight: bold;
             }
-
             #list > ul > li {
                 list-style-type: none;
                 height: 12%;
             }
-
             #list > ul {
                 padding: 0;
             }
 
-
         #footer {
             height: 18%;
-            background: rgba(227,231,233,.5);
+            /*background: rgba(227,231,233,.5);*/
         }
 
         #audio {
@@ -162,6 +160,7 @@
     </style>
 </head>
 <body>
+    <div id="warp">
     <div id="u3002">
         <div id="top"></div>
         <!--<img id="logo" src="images/Tlogo.svg" alt="\u3002" title="Homepage" height="450" />-->
@@ -307,9 +306,10 @@
             <div id="google_translate_element"></div>
         </div>
     </div>
+    </div>
 
     <script type="text/javascript" src="js/bg2.js"></script>
     <script type="text/javascript">function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, 'google_translate_element'); }</script>
-    <script type="text/javascript" src="//translate.google.cn/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
