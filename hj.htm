@@ -2,10 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta name="theme-color" content="#e5e5e5" />
-    <meta name="description" content="官方滑稽网 [#滑稽][#滑稽][#滑稽]" />
+    <meta name="description" content="官方滑稽網 [#滑稽][#滑稽][#滑稽]" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width,hight=device-hight,minimum-scale=1.0,maximum-scale=1.0,ser-scalable=none" />
-    <title>官方滑稽网</title>
+    <title>官方滑稽網</title>
     <link rel="icon" href="images/haha.png" />
     <style type="text/css">
         div {
@@ -107,11 +107,11 @@
 
         function init() {
 
-            //自定义对话框
-            //Materialize.toast('<span>切换样式</span><a class=&quot;btn-flat yellow-text&quot; href=http://www.whuisai.top/pages/coding/>切换<a>', 5000);
+            //自定義對話框
+            //Materialize.toast('<span>切換樣式</span><a class=&quot;btn-flat yellow-text&quot; href=http://www.whuisai.top/pages/coding/>切換<a>', 5000);
 
             //alert("message3");
-            container = document.createElement('div');//container：画布实例;
+            container = document.createElement('div');//container：畫布實例;
             document.body.appendChild(container);
 
             camera = new THREE.PerspectiveCamera(60, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 10000);
@@ -152,8 +152,8 @@
         }
 
         var touchStartX;
-        var touchFlag = 0;//储存当前是否滑动的状态;
-        var touchSensitive = 80;//检测滑动的灵敏度;
+        var touchFlag = 0;//儲存當前是否滑動的狀態;
+        var touchSensitive = 80;//檢測滑動的靈敏度;
         //var touchStartY;
         //var touchEndX;
         //var touchEndY;
@@ -161,7 +161,7 @@
 
             if (event.touches.length == 1) {
 
-                //event.preventDefault();//取消默认关联动作;
+                //event.preventDefault();//取消默認關聯動作;
                 touchStartX = 0;
                 touchStartX = event.touches[0].pageX;
                 //touchStartY = event.touches[ 0 ].pageY ;
@@ -188,7 +188,7 @@
             // 	touchEndX = event.touches[ 0 ].pageX ;
             // 	touchEndY = event.touches[ 0 ].pageY ;
 
-            // }这里存在问题
+            // }這裏存在問題
             var direction = event.changedTouches[0].pageX - touchStartX;
 
             changeAndBack(touchFlag);
@@ -245,12 +245,12 @@
             renderer.render(scene, camera);
         }
     </script>
-    <!--原统计代码
+    <!--原統計代碼
     <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260451939'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1260451939%26show%3Dpic2' type='text/javascript'%3E%3C/script%3E"));
     </script>
 
     -->
-    <!--隐藏的统计代码-->
+    <!--隱藏的統計代碼-->
     <script type="text/javascript">
         document.write("<div style='display:none'>");
         var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
