@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-    <title>\u3002's personal homepage</title>
+    <title>u3002's homepage</title>
     <link rel="bookmark" href="images/TRredx256.png">
     <link rel="shortcut icon" href="images/TRredx256.png">
     <link rel="icon" href="images/TRredx256.png">
@@ -8,7 +8,7 @@
     <!--<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">-->
     <meta name="theme-color" content="#e5e5e5" />
     <meta http-equiv="Content-type" content="text/html" charset="utf-8" />
-    <meta name="description" content="u3002. Welecome ^_^ Funny · Minecraft Server · Sheet Music · KMS Server · u3002's blog." />
+    <meta name="description" content="u3002. Welecome ^_^ Minecraft Server · Sheet Music · KMS Server · u3002's blog." />
     <meta name="keywords" content="u3002, homepage">
     <meta http-equiv="pragma" content="no-cache" />
     <meta name="viewport" content="width=device-width, user-scalable=no" />
@@ -164,7 +164,7 @@
     <div id="warp">
         <div id="u3002">
             <div id="top"></div>
-            <!--<img id="logo" src="images/Tlogo.svg" alt="\u3002" title="Homepage" height="450" />-->
+            <!--<img id="logo" src="images/Tlogo.svg" alt="u3002" title="Homepage" height="450" />-->
             <svg id="svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304.82 356.75">
                 <defs>
                     <style type="text/css">
@@ -181,11 +181,11 @@
                         }
 
                         .cls-4 {
-                            fill: #b81414;
+                            fill: #d7397b;
                         }
 
                         .cls-5 {
-                            fill: #e61919;
+                            fill: #fb5c99;
                         }
 
                         .cls-6 {
@@ -228,13 +228,11 @@
                     arr[k] = k;
                 }
                 var arr1 = arr.map(function (e) {
-                    return 'hsl(' + e + ', 80%, 50%)';
+                    return 'oklch(70% 0.135 ' + e + ')';
                 });
                 var arr2 = arr.map(function (e) {
-                    return 'hsl(' + e + ', 80%, 40%)';
+                    return 'oklch(60% 0.135 ' + e + ')';
                 });
-                /*console.log(arr1);
-                console.log(arr2);*/
                 setInterval('changeColor()', 100);
                 function changeColor() {
                     var elements1 = document.getElementsByClassName('cls-5');
